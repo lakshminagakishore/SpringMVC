@@ -10,6 +10,8 @@ import org.springframework.web.servlet.mvc.Controller;
 
 public class FrontController implements Controller {
 
+	// approach-1
+	
 	@Override
 	public ModelAndView handleRequest(HttpServletRequest req, HttpServletResponse res) throws Exception {
 
